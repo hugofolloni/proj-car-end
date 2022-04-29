@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    background: #1c1c1c;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+
+.relogio {
+    width: 20%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.tempo-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    background-color: #3c3c3c;
+    border-radius: 10px;
+    font-size: 40px;
+}
