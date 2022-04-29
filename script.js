@@ -55,7 +55,7 @@ const verifyDate = (weekDay, hours, date) => {
 
     else{
         state.textContent = "Você não está em aula de Projeto de Carreira! Sorria!"
-        document.getElementById('relogio').style.display = 'none'
+        document.getElementById('cronometro').style.display = 'none'
     }
 }
 
